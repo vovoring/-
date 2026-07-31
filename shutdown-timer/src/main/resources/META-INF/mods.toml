@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="shutdowntimer"
+version="1.0.0"
+displayName="Shutdown Timer"
+description='''우측 상단에 서버 종료까지 남은 시간을 표시합니다.'''
+
+[[dependencies.shutdowntimer]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.shutdowntimer]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="CLIENT"
